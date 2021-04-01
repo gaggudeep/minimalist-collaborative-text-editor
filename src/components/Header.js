@@ -4,8 +4,7 @@ import "../index.css";
 
 function Header(props) {
   const handleFontChange = (e) => {
-    const textbox = document.getElementById("textbox");
-    textbox.style.fontSize = `${e.target.value}px`;
+    document.getElementById("textbox").style.fontSize = `${e.target.value}px`;
   };
 
   return (
